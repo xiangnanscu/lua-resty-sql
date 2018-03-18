@@ -7,7 +7,7 @@ local pairs = pairs
 local tostring = tostring
 local error = error
 
-version = '1.0'
+local version = '1.0'
 
 local Sql = BaseSql:class{}
 function Sql.class(cls, subcls)
